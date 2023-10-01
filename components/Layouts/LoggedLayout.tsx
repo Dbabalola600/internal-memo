@@ -15,7 +15,7 @@ export default function LoggedLayout({ children }: { children?: JSX.Element }) {
     function checkUser() {
         const userCheck = hasCookie("NormUser")
 
-        console.log(userCheck)
+        // console.log(userCheck)
 
         if (userCheck == false) {
             router.push("/")

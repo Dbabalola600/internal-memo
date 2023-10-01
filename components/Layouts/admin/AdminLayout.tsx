@@ -16,7 +16,7 @@ export default function AdminLayout({ children }: { children?: JSX.Element }) {
     function checkUser() {
         const userCheck = hasCookie("AdminUser")
 
-        console.log(userCheck)
+        // console.log(userCheck)
 
         if (userCheck == false) {
             router.push("/")

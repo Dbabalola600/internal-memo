@@ -95,8 +95,14 @@ const Home: NextPage = () => {
             desc="please provide necessary details for sign in"
           />
 
-          <div>
-            Admin login -- useername: Admin101, password: password
+          <div
+            className='text-center pt-5 text-gray-500'
+          >
+
+            Admin login
+            <p>
+              username: Admin101, password: password
+            </p>
           </div>
 
           <form
