@@ -95,6 +95,10 @@ const Home: NextPage = () => {
             desc="please provide necessary details for sign in"
           />
 
+          <div>
+            Admin login -- useername: Admin101, password: password
+          </div>
+
           <form
             className="w-full py-20 space-y-12  text-black text-base md:text-xl"
             onSubmit={
